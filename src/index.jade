@@ -1,0 +1,148 @@
+- var datalink = "http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/"
+//- var datalink = ""
+include includes/officerData.jade
+
+
+link(rel="stylesheet", type="text/css", href="#{datalink}css/style.css")
+link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Old+Standard+TT|Lato|Montserrat")
+#fgPackage.container
+	section.section.section--officersTable
+		h2.sectionTitle Charges against Baltimore officers
+		p.chatter Six Baltimore officers were charged with various crimes after Freddie Gray died in police custody.
+		table.officersTable
+			thead
+				tr
+					th.headerCell.headerCell--officer
+						.wrapper
+							img.count(src='#{datalink}images/count.png')
+						.wrapper
+							p = counts
+					th.headerCell.headerCell--charge Second degree depraved heart murder
+					th.headerCell.headerCell--charge Second degree assault
+					th.headerCell.headerCell--charge Misconduct in office
+					th.headerCell.headerCell--charge Manslaughter (involuntary)
+					th.headerCell.headerCell--charge Manslaughter by vehicles (gross negligence)
+					th.headerCell.headerCell--charge Manslaughter by vehicles (criminal negligence)
+					th.headerCell.headerCell--charge Reckless endangerment
+					th.headerCell.headerCell--verdict Verdict
+			tbody
+				each officer, i in officerData
+					tr
+						td.cell.cell--officer
+							- if (officer.notGuilty == 1) {
+								img.mug.notGuilty(src='#{datalink}images/#{officer.id}ng.jpg')
+							- } else {
+								img.mug(src='#{datalink}images/#{officer.id}.jpg')
+							- }
+							p.name #{officer.officer}
+							p.stat Years on force: #{officer.yearsOnForce}
+							//- a.officerLink(href='#{officer.profileLink}') Read profile
+						- if (officer.charge0 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge0}.png')
+						- }
+						- if (officer.charge1 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge1}.png')
+						- }
+						- if (officer.charge2 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge2}.png')
+						- }
+						- if (officer.charge3 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge3}.png')
+						- }
+						- if (officer.charge4 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge4}.png')
+						- }
+						- if (officer.charge5 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge5}.png')
+						- }
+						- if (officer.charge6 == 0) {
+							td.cell.cell--charge.blank 
+						- } else {
+							td.cell.cell--charge
+								img.count(src='#{datalink}images/count#{officer.charge6}.png')
+						- }
+						td.cell.cell--verdict 
+							p.verdictText #{officer.verdict}
+							- if (officer.articleLink != "") {
+								a.officerLink(href='#{officer.articleLink}') Read article
+							- }
+							- if (officer.coverageLink != "") {
+								a.officerLink(href='#{officer.coverageLink}') View coverage
+							- }
+		.officersMobile
+			each officer, i in officerData
+				.officer--container
+					.officer
+						- if (officer.notGuilty == 1) {
+							img.mug.notGuilty(src='#{datalink}images/#{officer.id}ng.jpg')
+						- } else {
+							img.mug(src='#{datalink}images/#{officer.id}.jpg')
+						- }
+						p.name #{officer.officer}
+						p.stat Years on force: #{officer.yearsOnForce}
+						//- a.officerLink(href='#{officer.profileLink}') Read profile
+					.trial
+						.trialInfo				
+							- if (officer.charge0 != 0) {
+								.charge
+									p.chargeType Second degree assault
+									img.count(src='#{datalink}images/count#{officer.charge0}.png')
+							- }
+							- if (officer.charge1 != 0) {	
+								.charge
+									p.chargeType Second degree depraved heart murder
+									img.count(src='#{datalink}images/count#{officer.charge1}.png')
+							- }
+							- if (officer.charge2 != 0) {	
+								.charge
+									p.chargeType Second degree assault
+									img.count(src='#{datalink}images/count#{officer.charge2}.png')
+							- }
+							- if (officer.charge3 != 0) {	
+								.charge
+									p.chargeType Misconduct in office
+									img.count(src='#{datalink}images/count#{officer.charge3}.png')
+							- }
+							- if (officer.charge4 != 0) {	
+								.charge
+									p.chargeType Manslaughter (involuntary)
+									img.count(src='#{datalink}images/count#{officer.charge4}.png')
+							- }
+							- if (officer.charge5 != 0) {	
+								.charge
+									p.chargeType Manslaughter by vehicles (gross negligence)
+									img.count(src='#{datalink}images/count#{officer.charge5}.png')
+							- }
+							- if (officer.charge6 != 0) {	
+								.charge
+									p.chargeType Reckless endangerment
+									img.count(src='#{datalink}images/count#{officer.charge6}.png')
+							- }
+							.charge.charge--verdict
+								p.chargeType.chargeType--verdict Verdict
+								p.verdictDate #{officer.verdict}
+							.trialCoverage
+								- if (officer.coverageLink != "") {
+									a.officerLink(href='#{officer.coverageLink}') View coverage
+								- }
+								- if (officer.articleLink != "") {
+									a.officerLink(href='#{officer.articleLink}') Read article
+								- }

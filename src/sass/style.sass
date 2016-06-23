@@ -1,0 +1,188 @@
+@import "mixins"
+@import "variables"
+// @import "bourbon/bourbon"
+// @import "neat/neat"
+@import "normalize"
+@import "fonts"
+
+$lato: 'Lato', sans-serif
+
+$gray: #CCCCCC
+$lightgray: #E6E6E6
+$darkgray: #A8A8A8
+$gold: #daa520
+$bp1: 1000px
+$bp1b: 1150px
+$bp2: 580px
+html
+	box-sizing: content-box
+#fgPackage.container
+	box-sizing: border-box
+	width: 100%
+	max-width: 1200px
+	margin: 0 auto
+	p, a, span
+		font-family: $lato
+		font-size: 18px
+		@media (max-width: 460px)
+			font-size: 15px
+	a
+		color: $gold
+		text-decoration: none
+		&:hover
+			color: lighten($gold, 20%)
+	.section
+		border-bottom: 1px solid $gray
+		padding-bottom: 60px
+		overflow: auto
+		h2.sectionTitle
+			font-size: 24px
+			margin-bottom: 5px
+			@media (max-width: 840px)
+				font-size: 20px
+		a.interactiveLink
+
+		p.chatter
+		&--officersTable
+			.officersTable
+				@media (max-width: $bp1b)
+					display: none
+				cellpadding: 0
+				text-align: center
+				p
+					margin: 0 auto						
+				tr		
+					border-top: 1px solid $gray
+				th, td
+					padding: 6px
+				th
+					font-family: $lato
+					font-size: 18px
+					font-weight: bold
+				thead
+					background-color: $lightgray						
+					.headerCell
+						min-width: 100px
+						&--officer
+							width: 20%
+							max-width: 160px
+							.wrapper
+								display: inline-block
+								vertical-align: middle
+								img
+									width: 25px
+									align: left 
+									margin: 0 auto
+								p
+						&--charge
+							border-left: 1px dotted $gray
+							border-right: 1px dotted $gray
+				tbody
+					.cell
+						&--officer
+							img.mug
+								width: 100%
+								max-width: 160px
+								margin: 0 auto
+							p.name
+								font-weight: bold
+							p.stat
+								font-size: 14px
+								color: $darkgray
+							a
+								font-size: 14px
+						&--charge
+							border-left: 1px dotted $gray
+							border-right: 1px dotted $gray
+							img.count
+								width: 50px
+								margin: 0 auto
+						&--verdict
+							vertical-align: middle 
+							p.verdictText
+								margin-bottom: 20px
+								color: black
+			.officersMobile
+				display: none
+				font-family: $lato
+				font-size: 18px
+				@media (max-width: $bp1b)
+					display: block
+					.officer--container
+						display: inline-block
+						width: 100%
+						padding: 20px 0
+						border-top: 1px solid $gray
+						.officer
+							display: inline-block
+							width: 40%
+							margin-left: 20px
+							text-align: center
+							img.mug
+								width: 100%
+								max-width: 280px
+								margin: 0 auto
+							p
+								margin: 0
+							p.name
+								font-weight: bold
+							p.stat
+								font-size: 16px
+								color: $darkgray
+							a
+								font-size: 16px
+							@media (max-width: $bp2) 
+								display: block
+								width: 100%
+								margin: 0 auto
+								text-align: center
+								img.mug
+									max-width: 120px
+									margin: 10px auto
+						.trial
+							display: inline-block
+							width: 50%
+							vertical-align: top
+							float: right				
+							@media (max-width: $bp2) 
+								display: block
+								width: 100%
+							.trialInfo
+								display: block
+								width: 100%
+								vertical-align: top	
+								margin: 0 auto	
+								.charge
+									border-bottom: 1px dotted $gray
+									p.chargeType
+										display: inline-block
+										width: 70%
+										&--verdict
+											width: 60px
+									img.count
+										width: 30px
+										float: right
+										margin-top: 14px
+										margin-right: 13px
+									p.verdictDate
+										display: inline-block
+										width: 180px
+										float: right
+										color: black
+										text-align: right
+									&--verdict
+										border: none
+								@media (max-width: $bp2) 
+									display: block
+									width: 100%
+							.trialCoverage
+								width: 100%
+								display: inline-block
+								margin: 30px 0
+								text-align: center
+								a
+									border: 2px solid $gold
+									border-radius: 10px
+									padding: 5px
+								@media (max-width: $bp2) 
+									margin: 0 auto
