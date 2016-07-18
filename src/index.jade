@@ -82,10 +82,12 @@ link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?fa
 						td.cell.cell--verdict 
 							p.verdictText #{officer.verdict}
 							- if (officer.articleLink != "") {
-								a.officerLink(href='#{officer.articleLink}') Read article
+								p
+									a.officerLink(href='#{officer.articleLink}') Read article
 							- }
 							- if (officer.coverageLink != "") {
-								a.officerLink(href='#{officer.coverageLink}') View coverage
+								p
+									a.officerLink(href='#{officer.coverageLink}') View coverage
 							- }
 		.officersMobile
 			each officer, i in officerData
@@ -141,8 +143,10 @@ link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?fa
 								p.verdictDate #{officer.verdict}
 							.trialCoverage
 								- if (officer.coverageLink != "") {
-									a.officerLink(href='#{officer.coverageLink}') View coverage
+									p
+										a.officerLink(href='#{officer.coverageLink}') View coverage
 								- }
 								- if (officer.articleLink != "") {
-									a.officerLink(href='#{officer.articleLink}') Read article
+									p
+										a.officerLink(href='#{officer.articleLink}') Read article
 								- }

@@ -35,7 +35,7 @@
 			"file": "src/index.jade",
 			"settings":
 			{
-				"buffer_size": 5554,
+				"buffer_size": 5600,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,15 @@
 			"file": "dist/index.html",
 			"settings":
 			{
-				"buffer_size": 19428,
+				"buffer_size": 19929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://data.baltimoresun.com/jin/freddie-gray-package/stylesheets/css/style.css?1\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://fonts.googleapis.com/css?family=Old+Standard+TT|Lato|Montserrat\"/>\n\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/css/style.css\"/>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://fonts.googleapis.com/css?family=Old+Standard+TT|Lato|Montserrat\"/>\n<div id=\"fgPackage\" class=\"container\">\n  <section class=\"section section--officersTable\">\n    <h2 class=\"sectionTitle\">Charges against Baltimore officers</h2>\n    <p class=\"chatter\">Six Baltimore officers were charged with various crimes after Freddie Gray died in police custody.</p>\n    <table class=\"officersTable\">\n      <thead>\n        <tr>\n          <th class=\"headerCell headerCell--officer\">\n            <div class=\"wrapper\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count.png\" class=\"count\"/></div>\n            <div class=\"wrapper\">\n              <p>= counts</p>\n            </div>\n          </th>\n          <th class=\"headerCell headerCell--charge\">Second degree depraved heart murder</th>\n          <th class=\"headerCell headerCell--charge\">Second degree assault</th>\n          <th class=\"headerCell headerCell--charge\">Misconduct in office</th>\n          <th class=\"headerCell headerCell--charge\">Manslaughter (involuntary)</th>\n          <th class=\"headerCell headerCell--charge\">Manslaughter by vehicles (gross negligence)</th>\n          <th class=\"headerCell headerCell--charge\">Manslaughter by vehicles (criminal negligence)</th>\n          <th class=\"headerCell headerCell--charge\">Reckless endangerment</th>\n          <th class=\"headerCell headerCell--verdict\">Verdict</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/4.jpg\" class=\"mug\"/>\n            <p class=\"name\">Officer William Porter</p>\n            <p class=\"stat\">Years on force: 3</p>\n          </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Declared mistrial 12/16/2015; retrial 9/6/2016</p>\n            <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-porter-trial-jury-wednesday-20151216-story.html\" class=\"officerLink\">Read article</a></p>\n          </td>\n        </tr>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/0ng.jpg\" class=\"mug notGuilty\"/>\n            <p class=\"name\">Officer Edward Nero</p>\n            <p class=\"stat\">Years on force: 3</p>\n          </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count2.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Found not guilty on all charges 5/23/2016</p>\n            <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-ci-nero-verdict-20160521-story.html\" class=\"officerLink\">Read article</a></p>\n          </td>\n        </tr>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/1ng.jpg\" class=\"mug notGuilty\"/>\n            <p class=\"name\">Officer Caesar Goodson Jr.</p>\n            <p class=\"stat\">Years on force: 16</p>\n          </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Found not guilty on all charges 6/23/2016</p>\n            <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-ci-goodson-verdict-20160623-story.html\" class=\"officerLink\">Read article</a></p>\n            <p><a href=\"http://live.baltimoresun.com/Event/Officer_Caesar_Goodson_trial_Freddie_Gray_case_live_coverage_2\" class=\"officerLink\">View coverage</a></p>\n          </td>\n        </tr>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/2.jpg\" class=\"mug\"/>\n            <p class=\"name\">Lt. Brian Rice</p>\n            <p class=\"stat\">Years on force: 18</p>\n          </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Trial date: 7/5/2016</p>\n            <p><a href=\"http://live.baltimoresun.com/Event/Lt_Brian_Rice_trial_Freddie_Gray_case_live_coverage\" class=\"officerLink\">View coverage</a></p>\n          </td>\n        </tr>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/3.jpg\" class=\"mug\"/>\n            <p class=\"name\">Officer Garrett Miller</p>\n            <p class=\"stat\">Years on force: 3</p>\n          </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count2.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Trial date: 7/27/2016</p>\n          </td>\n        </tr>\n        <tr>\n          <td class=\"cell cell--officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/5.jpg\" class=\"mug\"/>\n            <p class=\"name\">Sgt. Alicia White</p>\n            <p class=\"stat\">Years on force: 5</p>\n          </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge blank\"> </td>\n          <td class=\"cell cell--charge\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/></td>\n          <td class=\"cell cell--verdict\"> \n            <p class=\"verdictText\">Trial date: 10/13/2016</p>\n          </td>\n        </tr>\n      </tbody>\n    </table>\n    <div class=\"officersMobile\">\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/4.jpg\" class=\"mug\"/>\n          <p class=\"name\">Officer William Porter</p>\n          <p class=\"stat\">Years on force: 3</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree depraved heart murder</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Misconduct in office</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Declared mistrial 12/16/2015; retrial 9/6/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n              <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-porter-trial-jury-wednesday-20151216-story.html\" class=\"officerLink\">Read article</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/0ng.jpg\" class=\"mug notGuilty\"/>\n          <p class=\"name\">Officer Edward Nero</p>\n          <p class=\"stat\">Years on force: 3</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree depraved heart murder</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count2.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Found not guilty on all charges 5/23/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n              <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-ci-nero-verdict-20160521-story.html\" class=\"officerLink\">Read article</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/1ng.jpg\" class=\"mug notGuilty\"/>\n          <p class=\"name\">Officer Caesar Goodson Jr.</p>\n          <p class=\"stat\">Years on force: 16</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree depraved heart murder</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Misconduct in office</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Manslaughter (involuntary)</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Manslaughter by vehicles (gross negligence)</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Found not guilty on all charges 6/23/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n              <p><a href=\"http://live.baltimoresun.com/Event/Officer_Caesar_Goodson_trial_Freddie_Gray_case_live_coverage_2\" class=\"officerLink\">View coverage</a></p>\n              <p><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-ci-goodson-verdict-20160623-story.html\" class=\"officerLink\">Read article</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/2.jpg\" class=\"mug\"/>\n          <p class=\"name\">Lt. Brian Rice</p>\n          <p class=\"stat\">Years on force: 18</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Misconduct in office</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Trial date: 7/5/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n              <p><a href=\"http://live.baltimoresun.com/Event/Lt_Brian_Rice_trial_Freddie_Gray_case_live_coverage\" class=\"officerLink\">View coverage</a></p>\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/3.jpg\" class=\"mug\"/>\n          <p class=\"name\">Officer Garrett Miller</p>\n          <p class=\"stat\">Years on force: 3</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree depraved heart murder</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count2.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Trial date: 7/27/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n            </div>\n          </div>\n        </div>\n      </div>\n      <div class=\"officer--container\">\n        <div class=\"officer\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/5.jpg\" class=\"mug\"/>\n          <p class=\"name\">Sgt. Alicia White</p>\n          <p class=\"stat\">Years on force: 5</p>\n        </div>\n        <div class=\"trial\">\n          <div class=\"trialInfo\">       \n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree depraved heart murder</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Second degree assault</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Misconduct in office</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge\">\n              <p class=\"chargeType\">Reckless endangerment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-officer-verdicts/images/count1.png\" class=\"count\"/>\n            </div>\n            <div class=\"charge charge--verdict\">\n              <p class=\"chargeType chargeType--verdict\">Verdict</p>\n              <p class=\"verdictDate\">Trial date: 10/13/2016</p>\n            </div>\n            <div class=\"trialCoverage\">\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section--mapTimeline\">\n    <h2 class=\"sectionTitle\">Prosecutor's timeline in the Freddie Gray Case</h2><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bal-prosecutors-timeline-in-the-freddie-gray-case-20150501-htmlstory.html\" class=\"interactiveLink\">See the full interactive</a>\n    <p class=\"chatter\">On May 1, 2015, Baltimore prosecutor Marilyn Mosby announced that the six Baltimore police officers involved in the arrest of Freddie Gray &ndash; who died after being injured in police custody &ndash; have been charged criminally. Below is the timeline of events that she outlined during her press conference.</p>\n    <div class=\"mapContent\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/prosecutor-map.png\" class=\"map\"/>\n      <div class=\"timelineText\">\n        <div class=\"nav\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/left.png\" class=\"timelineButton timelinePrev\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/stop1.png\" data-pos='0' class=\"timelinePosition\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/right.png\" class=\"timelineButton timelineNext\"/></div>\n        <div class=\"text\">\n          <p class=\"subhead subhead--timeline\">Mount St. and North Ave.</p>\n          <div class=\"chatterWrapper\">\n            <p class=\"chatter chatter--timeline\">According to the statement of charges Mosby read at a news conference, officers Lt. Brian Rice, Garrett Miller and Edward Nero were on bike patrol at 9:15 a.m. near corner of North Avenue and Mount Street where they made eye contact with Gray. </p>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section--sandtown\">\n    <h2 class=\"sectionTitle\">Anatomy of a neighborhood: Sandtown-Winchester</h2><a href=\"http://www.baltimoresun.com/news/data/bal-sandtownwinchester-neighborhood-health-well-below-city-average-in-most-factors-20150430-htmlstory.html\" class=\"interactiveLink\">See the full interactive</a>\n    <p class=\"chatter\">The Sandtown-Winchester/Harlem Park* neighborhoods, thrust into the national spotlight over the death of Freddie Gray while in police custody, have long been home to some of the worst living conditions in Baltimore.</p>\n    <div class=\"wrapper wrapper--left\">\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--map\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-map.png\" class=\"sandtownImg\"/></div>\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--mobile sandtownImgWrapper--mobile--1\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-mobile1.png\" class=\"sandtownImg\"/></div>\n    </div>\n    <div class=\"wrapper wrapper--right\">\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--stat1\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-stats1.png\" class=\"sandtownImg\"/></div>\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--mobile sandtownImgWrapper--mobile--1b\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-mobile1.png\" class=\"sandtownImg\"/></div>\n    </div>\n    <div class=\"wrapper wrapper--bottom\">\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--stat2\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-stats2.png\" class=\"sandtownImg\"/></div>\n      <div class=\"sandtownImgWrapper sandtownImgWrapper--mobile sandtownImgWrapper--mobile--2\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/sandtown-mobile2.png\" class=\"sandtownImg\"/></div>\n    </div>\n  </section>\n  <section class=\"section section--neighborhoods\">\n    <h2 class=\"sectionTitle\">Mapping inequalities in Baltimore&rsquo;s neighborhoods</h2><a href=\"http://www.baltimoresun.com/bal-graphic-mapping-inequalities-in-baltimores-neighborhoods-20150504-htmlstory.html\" class=\"interactiveLink\">See the full interactive</a>\n    <p class=\"chatter\">Unemployment, income, life expectancy, and homicide rate data for Baltimore City neighborhoods.</p>\n    <div class=\"neighborhoodGraphics\">\n      <div class=\"neighborhood neighborhood--1\">\n        <p class=\"title\">Unemployment</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/neighborhood1.png\" class=\"map\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/legend1.png\" class=\"legend\"/>\n      </div>\n      <div class=\"neighborhood neighborhood--2\">\n        <p class=\"title\">Income</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/neighborhood2.png\" class=\"map\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/legend2.png\" class=\"legend\"/>\n      </div>\n      <div class=\"neighborhood neighborhood--3\">\n        <p class=\"title\">Life Expectancy</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/neighborhood3.png\" class=\"map\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/legend3.png\" class=\"legend\"/>\n      </div>\n      <div class=\"neighborhood neighborhood--4\">\n        <p class=\"title\">Homicide Rate</p><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/neighborhood4.png\" class=\"map\"/><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/legend4.png\" class=\"legend\"/>\n      </div>\n    </div>\n  </section>\n  <section class=\"section section--furtherReading\">\n    <h2 class=\"sectionTitle\">Further reading</h2>\n    <div class=\"linksGrid\"><a href=\"http://data.baltimoresun.com/freddie-gray/\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb1.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>The 45-minute mystery of Freddie Gray's death</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bal-freddie-gray-remembered-as-jokester-who-struggled-to-leave-drug-trade-20151120-story.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb2.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Freddie Gray remembered as jokester who struggled to leave drug trade</span></div>\n          </div>\n        </div></a><a href=\"http://data.baltimoresun.com/news/police-embed-102015/\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb3.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Looking for answers in the Freddie Gray case </span></div>\n          </div>\n        </div></a><a href=\"http://data.baltimoresun.com/freddie-gray-cctv/\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb4.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Police video shows pursuit of Gray and friend</span></div>\n          </div>\n        </div></a><a href=\"http://data.baltimoresun.com/news/police-settlements/\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb5.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Baltimore residents complain of allegations of police brutality</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/data/bal-baltimore-segregation-map-20150710-htmlstory.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb6.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Legacy of segregation lingers in Baltimore</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-ci-freddie-gray-autopsy-20150623-story.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb7.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Autopsy of Freddie Gray shows 'high-energy' impact</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bs-md-officer-statements-20150926-story.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb8.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Baltimore officer said Freddie Gray asked for help</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/sun-investigates/bs-md-ci-freddie-gray-investigation-20150502-story.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb9.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Exclusive look inside the Freddie Gray investigation</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/freddie-gray/bal-freddie-gray-documents-storygallery.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb10.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Documents in the Freddie Gray case</span></div>\n          </div>\n        </div></a><a href=\"http://www.baltimoresun.com/news/maryland/baltimore-city/bs-md-freddie-gray-lead-paint-20150423-story.html\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb11.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Beginning of Freddie Gray's life as sad as its end, court case shows</span></div>\n          </div>\n        </div></a><a href=\"http://data.baltimoresun.com/news/freddie-gray/\" class=\"links\"><img src=\"http://data.baltimoresun.com/jin/freddie-gray-package/images/thumb12.png\" class=\"thumbnail\"/>\n        <div class=\"overlay\"> \n          <div class=\"wrapper\">\n            <div class=\"wrapper2\"><span>Timeline: Freddie Gray's arrest, death and the aftermath</span></div>\n          </div>\n        </div></a></div>\n  </section>\n</div>\n<!--Javascript-->\n<script src=\"http://data.baltimoresun.com/jin/freddie-gray-package/scripts/min/jquery-1.10.2.min.js\"></script>\n<script src=\"http://data.baltimoresun.com/jin/freddie-gray-package/scripts/min/modernizr.js\"></script>\n<script src=\"http://data.baltimoresun.com/jin/freddie-gray-package/scripts/javascript.js\"></script>",
+			"settings":
+			{
+				"buffer_size": 31058,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +59,7 @@
 			"file": "src/includes/officerData.jade",
 			"settings":
 			{
-				"buffer_size": 2438,
+				"buffer_size": 2644,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +67,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 2202,
+				"buffer_size": 2224,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +83,7 @@
 			"file": "src/sass/style.sass",
 			"settings":
 			{
-				"buffer_size": 3981,
+				"buffer_size": 3995,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +91,7 @@
 			"file": "dist/css/style.css",
 			"settings":
 			{
-				"buffer_size": 18703,
+				"buffer_size": 10202,
 				"line_ending": "Unix"
 			}
 		},
@@ -206,7 +214,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -220,6 +228,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\">Not guilty on all charges<",
+			"Not guilty on all charges",
+			"http://data.baltimoresun.com/jin/freddie-gray-package/images/nero.jpg",
+			"http://data.baltimoresun.com/jin/freddie-gray-package/images/goodson.jpg",
+			"Trial date: 6/6/16",
+			"Mistrial; retrial 9/6/16",
+			"img.count(src='#{datalink}images/count#{officer",
 			"api",
 			"width: 10",
 			"marker-width: 6;'+",
@@ -290,15 +305,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5554,
+						"buffer_size": 5600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								85,
-								85
+								384,
+								384
 							]
 						],
 						"settings":
@@ -319,15 +334,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19428,
+						"buffer_size": 19929,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								534,
-								2977
+								0,
+								19929
 							]
 						],
 						"settings":
@@ -340,24 +355,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "src/includes/officerData.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2438,
+						"buffer_size": 31058,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2438,
-								2438
+								0,
+								31058
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7026.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/includes/officerData.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1606,
+								1606
 							]
 						],
 						"settings":
@@ -368,24 +413,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2202,
+						"buffer_size": 2224,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								118,
-								118
+								955,
+								955
 							]
 						],
 						"settings":
@@ -398,11 +443,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -426,30 +471,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "src/sass/style.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3981,
+						"buffer_size": 3995,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								335,
-								260
+								587,
+								587
 							]
 						],
 						"settings":
@@ -458,19 +503,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1566.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "dist/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18703,
+						"buffer_size": 10202,
 						"regions":
 						{
 						},
@@ -491,11 +536,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "src/sass/_variables.sass",
 					"semi_transient": false,
 					"settings":
@@ -519,11 +564,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "src/sass/_mixins.sass",
 					"semi_transient": false,
 					"settings":
@@ -548,7 +593,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
