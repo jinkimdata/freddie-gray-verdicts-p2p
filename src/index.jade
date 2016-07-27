@@ -81,11 +81,11 @@ link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?fa
 						- }
 						td.cell.cell--verdict 
 							p.verdictText #{officer.verdict}
-							- if (officer.articleLink != "") {
+							- if (officer.articleLink != 0) {
 								p
 									a.officerLink(href='#{officer.articleLink}') Read article
 							- }
-							- if (officer.coverageLink != "") {
+							- if (officer.coverageLink != 0) {
 								p
 									a.officerLink(href='#{officer.coverageLink}') View coverage
 							- }
@@ -142,11 +142,11 @@ link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?fa
 								p.chargeType.chargeType--verdict Verdict
 								p.verdictDate #{officer.verdict}
 							.trialCoverage
-								- if (officer.coverageLink != "") {
+								- if (officer.coverageLink != 0) {
 									p
 										a.officerLink(href='#{officer.coverageLink}') View coverage
 								- }
-								- if (officer.articleLink != "") {
+								- if (officer.articleLink != 0) {
 									p
 										a.officerLink(href='#{officer.articleLink}') Read article
 								- }
